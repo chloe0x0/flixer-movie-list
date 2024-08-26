@@ -7,7 +7,7 @@ SITEMAP_URL = "https://theflixertv.to/sitemap.xml"
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         prog='Flixer Webscraper',
-        description="Given a path to a text file, writes a list of all movies currently on https://theflixer.to",
+        description="Given a path to a text file, writes a list of all movies currently on https://theflixertv.to/",
     )
     parser.add_argument("-filename", "-f", type=str, dest="filename", required=True)
     parser.add_argument("-verbose", "-v", action='store_true', default=False, dest="verbose", required=False)
